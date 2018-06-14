@@ -1,0 +1,77 @@
+#header {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#sidebar {
+	float: left;
+	width: 100%;
+	word-wrap: break-word;
+}
+
+#main-column {
+	padding-left: 0%;
+	width: 0%;
+	float: left;
+	word-wrap: break-word;
+}
+
+#main-title{
+	font-size: 2em;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	cursor: default;
+}
+
+p.tree-item {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+p.tree-item:hover {
+	background-color: yellow;
+}
+
+p.label {
+	text-align: left; 
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+p.folder {
+	background-color: beige;
+}
+
+div.collapsed {
+	display: none;
+}
+
+/* don't color visited links */
+a:visited {
+	color: blue;
+}
+
+hr {
+	border-color: beige;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
